@@ -3,13 +3,13 @@ Basic captcha by BerkayZ
 
 Usage:
 
-1) Import CSS files
-```
+## 1) Import CSS files
+```html
 <link rel="stylesheet" href="css/captcha.css"/>
 ```
 
-2) Add captcha codes to your form
-```
+## 2) Add captcha codes to your form
+```html
 <div class='captcha'>
  <table>
   <tr>
@@ -20,8 +20,8 @@ Usage:
 </div>
 ```
 
-3) POST controls
-```
+## 3) POST controls
+```php
 if($sendedcode==$_SESSION["sccode"]){
  $info = "TRUE";
 }else{
@@ -29,7 +29,7 @@ if($sendedcode==$_SESSION["sccode"]){
 }
 ```
 
-4) Destroy session
-```
+## 4) Destroy session
+```php
 session_destroy(); 
 ```
