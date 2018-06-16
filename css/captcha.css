@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.captcha{
+	background-color: #29434e;
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.captcha input[type=text]{
+	width: 90%;
+	border: none;
+	padding: 4.5px;
+	font-size:18px;
+	border-radius: 3px;
+	font-family:Raleway;
+}
+
+.captcha input[type=text]:focus{
+	outline:none;
+}
+
+.csubmit_btn{
+	padding:10px;
+	border: none;
+	font-size:15px;
+	border-radius: 5px;
+	background-color:#34515e;
+	color: white;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.csubmit_btn:hover{
+	background-color:#607d8b;
+}
+
+
+.csubmit_btn:focus{
+	outline:none
+}
