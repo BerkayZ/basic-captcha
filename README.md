@@ -1,6 +1,8 @@
 # basic-captcha
 Basic captcha by BerkayZ
 
+![alt text](http://i.hizliresim.com/PDo0O9.png)
+
 Usage:
 
 ## 1) Import CSS files
