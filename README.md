@@ -22,7 +22,8 @@ Usage:
 
 ## 3) POST controls
 ```php
-if($sendedcode==$_SESSION["sccode"]){
+$postedcode = $_POST['cinput'];
+if($postedcode==$_SESSION["sccode"]){
  $info = "TRUE";
 }else{
  $info = "FALSE";
