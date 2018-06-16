@@ -1,6 +1,8 @@
 # basic-captcha
 Basic captcha by BerkayZ
 
+![Screenshot](https://user-images.githubusercontent.com/40277294/41499991-932ab86e-7192-11e8-9600-6c84282f8a1b.PNG)
+
 Usage:
 
 ## 1) Import CSS files
