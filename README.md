@@ -26,9 +26,9 @@ Basic captcha by BerkayZ
 ```php
 $postedcode = $_POST['cinput'];
 if($postedcode==$_SESSION["sccode"]){
- $info = "TRUE";
+ //* OK
 }else{
- $info = "FALSE";
+ //* Wrong
 }
 ```
 
